@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "7f18b58b-17c9-4944-acf9-1c7fe2c7aceb",
+		"name": "01/2022 - AWS – Atividade 02 - Deezer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.deezer.com/search/artist/?q=Ed Sheeran&index=0&limit=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.deezer.com/search/artist/?q=Ed Sheeran&index=0&limit=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"deezer",
+						"com"
+					],
+					"path": [
+						"search",
+						"artist",
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Ed Sheeran"
+						},
+						{
+							"key": "index",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.deezer.com/search/user/?q=usla.delfino",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.deezer.com/search/user/?q=usla.delfino",
+					"protocol": "https",
+					"host": [
+						"api",
+						"deezer",
+						"com"
+					],
+					"path": [
+						"search",
+						"user",
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "usla.delfino"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.deezer.com/user/405845017/flow",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.deezer.com/user/405845017/flow",
+					"protocol": "https",
+					"host": [
+						"api",
+						"deezer",
+						"com"
+					],
+					"path": [
+						"user",
+						"405845017",
+						"flow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.deezer.com/radio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.deezer.com/radio",
+					"protocol": "https",
+					"host": [
+						"api",
+						"deezer",
+						"com"
+					],
+					"path": [
+						"radio"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

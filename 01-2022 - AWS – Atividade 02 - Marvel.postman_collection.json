@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "02c18007-be32-438b-83bc-c35860c7d061",
+		"name": "01/2022 - AWS – Atividade 02 - Marvel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://gateway.marvel.com/v1/public/characters?apikey=b7a70bd54e7586cd56fd22ce780c9c11&hash=b1c749a58c8b43a8af07a5f97f7e228d&ts=110220220932",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gateway.marvel.com/v1/public/characters?apikey=b7a70bd54e7586cd56fd22ce780c9c11&hash=b1c749a58c8b43a8af07a5f97f7e228d&ts=110220220932",
+					"protocol": "https",
+					"host": [
+						"gateway",
+						"marvel",
+						"com"
+					],
+					"path": [
+						"v1",
+						"public",
+						"characters"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "b7a70bd54e7586cd56fd22ce780c9c11"
+						},
+						{
+							"key": "hash",
+							"value": "b1c749a58c8b43a8af07a5f97f7e228d"
+						},
+						{
+							"key": "ts",
+							"value": "110220220932"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gateway.marvel.com/v1/public/characters/1009220?apikey=b7a70bd54e7586cd56fd22ce780c9c11&hash=b1c749a58c8b43a8af07a5f97f7e228d&ts=110220220932",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gateway.marvel.com/v1/public/characters/1009220?apikey=b7a70bd54e7586cd56fd22ce780c9c11&hash=b1c749a58c8b43a8af07a5f97f7e228d&ts=110220220932",
+					"protocol": "https",
+					"host": [
+						"gateway",
+						"marvel",
+						"com"
+					],
+					"path": [
+						"v1",
+						"public",
+						"characters",
+						"1009220"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "b7a70bd54e7586cd56fd22ce780c9c11"
+						},
+						{
+							"key": "hash",
+							"value": "b1c749a58c8b43a8af07a5f97f7e228d"
+						},
+						{
+							"key": "ts",
+							"value": "110220220932"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gateway.marvel.com/v1/public/comics?apikey=b7a70bd54e7586cd56fd22ce780c9c11&hash=b1c749a58c8b43a8af07a5f97f7e228d&ts=110220220932",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gateway.marvel.com/v1/public/comics?apikey=b7a70bd54e7586cd56fd22ce780c9c11&hash=b1c749a58c8b43a8af07a5f97f7e228d&ts=110220220932",
+					"protocol": "https",
+					"host": [
+						"gateway",
+						"marvel",
+						"com"
+					],
+					"path": [
+						"v1",
+						"public",
+						"comics"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "b7a70bd54e7586cd56fd22ce780c9c11"
+						},
+						{
+							"key": "hash",
+							"value": "b1c749a58c8b43a8af07a5f97f7e228d"
+						},
+						{
+							"key": "ts",
+							"value": "110220220932"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
